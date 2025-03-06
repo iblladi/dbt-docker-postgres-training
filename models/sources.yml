@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: postgres
+    schema: employees
+    tables:
+      - name: employee
+      - name: department
+      - name: department_employee
+      - name: employee_snapshot

@@ -1,0 +1,4 @@
+dbt-core==1.9.2
+dbt-postgres==1.9.0
+#dbt-bigquery==1.9.1
+# Add any other dependencies your project needs
