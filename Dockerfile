@@ -26,6 +26,7 @@ RUN dbt deps
 
 # Set environment variables
 ENV DB_HOST=host.docker.internal
+ENV DB_PORT=5433
 
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
